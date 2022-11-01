@@ -1,0 +1,47 @@
+メモ
+データ型
+変数に入れるデータの種類のこと
+
+道的型付け言語
+データの指定はする必要がない
+
+
+数値型
+整数＝int型
+
+小数＝Float型
+
+
+num1 =123
+num2 =1.23
+
+print(num1)
+print(num2)
+
+データ型の確認
+
+nu01=456
+num02=4.56
+
+print(type(num1))
+print(type(num2))
+
+文字列型
+
+string
+
+
+hallo = "Hallo,World"
+print(type(hallo))
+
+
+ブール型
+
+True or False
+
+a= 10
+b= 1
+
+bool1 = (a > b)
+
+print(type(bool1))
