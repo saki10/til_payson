@@ -43,7 +43,7 @@ mylist = ["Apple", "Peach", "Orange"]
 print(mylist)
 --> ['Apple', 'Peach', 'Orange']
 
-# 2 番目の要素を別の値と入れ替える
+## 2 番目の要素を別の値と入れ替える
 mylist[1] = "Grape"
 print(mylist)
 --> ['Apple', 'Grape', 'Orange']
