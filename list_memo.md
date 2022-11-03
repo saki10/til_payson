@@ -28,12 +28,12 @@ end= ','
 print('Hello',end=',')
 print('World')
 
-Hello,World
+-->Hello,World
 
 sep=''
 
 print('Hello',sep='')
 print('World')
 
-Hello
-Worl
+-->Hello
+-->World
