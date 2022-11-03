@@ -1,4 +1,3 @@
-python
 # リストとは
 ## 変数は、１つのデータしか入らない
 
@@ -37,5 +36,36 @@ print('World')
 
 -->Hello
 
-
 -->World
+
+
+mylist = ["Apple", "Peach", "Orange"]
+print(mylist)
+--> ['Apple', 'Peach', 'Orange']
+
+# 2 番目の要素を別の値と入れ替える
+mylist[1] = "Grape"
+print(mylist)
+--> ['Apple', 'Grape', 'Orange']
+
+## listを逆にする
+
+org_list = [1, 2, 3, 4, 5]
+
+
+org_list.reverse()
+print(org_list)
+-->[5, 4, 3, 2, 1]
+
+fruits = [[['apple', 'orange'],['grape', 'banana']],['peach','strawberry']]
+print(fruits[1][0])
+-->peach
+
+print(fruits[1][1])
+-->strawberry
+
+print(fruits[0][1])
+-->['grape', 'banana']
+
+
+
